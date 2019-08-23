@@ -107,9 +107,335 @@
 </div>
 <br>
   
-     <div class="row">
-     <input type="text" name="Subject" placeholder="Carteristicas de la Unidad " id="_caracteristicas" ></input>
-     </div>
+<br>
+  
+      <div class="row3">
+     <SELECT name="Subject" id="_caracteristicas" onchange="salta(this.form)">
+     <option selected> Caracteristicas de la unidad
+  <optgroup label ="Audi">
+    <option value="Audi 80">80</option>
+    <option value="Audi 100">100</option>
+    <option value="Audi A1">A1</option>
+    <option value="Audi A2">A2</option>
+    <option value="Audi A3">A3</option>
+    <option value="Audi A4">A4</option>
+    <option value="Audi A5">A5</option>
+    <option value="Audi A6">A6</option>
+    <option value="Audi A6 allroad quattro">A6 allroad quattro</option>
+    <option value="Audi A1">A1</option>
+  </optgroup>
+ <optgroup label="BMW">
+    <option value=" BMW Serie 1">Serie 1</option>
+    <option value="BMW Serie 2 Coupe">Serie 2 Coupe</option> 
+    <option value="BMW Serie 2 Active Tourer">BMW Serie 2 Active Tourer</option>
+    <option value="BMW Serie 2 Gran Tourer">BMW Serie 2 Gran Tourer</option>
+    <option value="BMW 2 Series Convertible">BMW 2 Series Convertible</option>
+    <option value="BMW M240i Convertible">BMW M240i Convertible</option>
+    <option value="BMW Serie 3 Sedan">BMW Serie 3 Sedan</option>
+    <option value="BMW Serie 4 Gran Coupe">BMW Serie 4 Gran Coupe</option>
+    <option value="BMW Serie 4 Convertible">BMW Serie 4 Convertible</option>
+    <option value="BMW M5 Sedán">BMW M5 Sedán</option>
+  </optgroup> 
+  <optgroup label="Chevrolet">
+    <option value=" Chevrolet Spark">Chevrolet Spark</option>
+    <option value="Chevrolet Matiz">Chevrolet Matiz</option> 
+    <option value="Chevrolet Aveo">Chevrolet Aveo</option>
+    <option value="Chevrolet Cruze">Chevrolet Cruze</option>
+    <option value="Chevrolet Volt">Chevrolet Volt</option>
+    <option value="Chevrolet Kalos">Chevrolet Kalos</option>
+    <option value="Chevrolet Lacetti">Chevrolet Lacetti</option>
+    <option value="Chevrolet Orlando">Chevrolet Orlando</option>
+    <option value="Chevrolet Trax">Chevrolet Trax</option>
+    <option value="Chevrolet Malibu">Chevrolet Malibu</option>
+    <option value="Chevrolet Camaro">Chevrolet Camaro</option>
+    <option value="Chevrolet Captiva">Chevrolet Captiva</option>
+    <option value="Chevrolet Epica">Chevrolet Epica</option>
+    <option value="Chevrolet Nubira">Chevrolet Nubira</option>
+    <option value="Chevrolet Evanda">Chevrolet Evanda</option>
+    <option value="Chevrolet Tacuma">Chevrolet Tacuma</option>
+    <option value="Chevrolet Trans Sport">Chevrolet Trans Sport</option>
+    <option value="Chevrolet HHR">Chevrolet HHR</option>
+    <option value="Chevrolet TrailBlazer">Chevrolet TrailBlazer</option>
+    <option value="Chevrolet Tahoe">Chevrolet Tahoe</option>
+    <option value="Chevrolet Corvette">Chevrolet Corvette</option>
+  </optgroup>
+  <optgroup label="Chrysler">
+    <option value="Chrysler Sebring">Chrysler Sebring</option>
+    <option value="Chrysler 300C">Chrysler 300C</option> 
+    <option value="Chrysler PT Cruiser">Chrysler PT Cruiser</option>
+    <option value="Chrysler Voyager">Chrysler Voyager</option>
+    <option value="Chrysler Crossfire">Chrysler Crossfire</option>
+  </optgroup>    
+    <optgroup label="DODGE">
+    <option value="Dodge Avenger">Dodge Avenger</option>
+    <option value="Dodge Caliber">Dodge Caliber</option> 
+    <option value="Dodge Attitude">Dodge Attitude</option>
+    <option value="Dodge Neon">Dodge Neon</option>
+    <option value="Dodge Atos">Dodge Atos</option>
+    <option value="Dodge Grand Caravan">Dodge Grand Caravan</option>
+    <option value="Dodge Journey">Dodge Journey</option>
+    <option value="Dodge Charger">Dodge Charger</option>
+    <option value="Dodge Durango">Dodge Durango</option>
+    <option value="Dodge Challenger">Dodge Challenger</option>
+    
+  </optgroup>
+   <optgroup label="Fiat">
+    <option value="Fiat 500">Fiat 500</option>
+    <option value="Fiat 500X 2019">Fiat 500X 2019</option> 
+    <option value="Fiat 500X 2015">Fiat 500X 2015</option>
+    <option value="Fiat 500L">Fiat 500L</option>
+    <option value="Fiat Panda">Fiat Panda</option>
+    <option value="Fiat Punto">Fiat Punto</option>
+    <option value="Fiat Tipo">Fiat Tipo</option>
+    <option value="Fiat 124 Spider">Fiat 124 Spider</option>
+    <option value="Fiat Fullback">Fiat Fullback</option>
+    <option value="Fiat Fiorino 2016">Fiat Fiorino 2016</option>
+    <option value="Fiat Fiorino 2009">Fiat Fiorino 2009</option>
+    <option value="Fiat QUBO">Fiat QUBO</option>
+    <option value="Fiat Doblo">Fiat Doblo</option>
+    <option value="Fiat Ducato">Fiat Ducato</option>
+  </optgroup>
+   <optgroup label="Ford">
+    <option value="Ford Figo">Ford Figo</option>
+    <option value="Ford Fiesta "> Ford Fiesta</option> 
+    <option value="Ford Fusion">Ford Fusion</option>
+    <option value="Ford Mustang">Ford Mustang</option>
+    <option value="Ford Ecosport">Ford Ecosport</option>
+    <option value="Ford Escape">Ford Escape</option>
+    <option value="Ford Edge">Ford Edger</option>
+    <option value="Ford Explorer">Ford Explorer</option>
+    <option value="Ford Expedition">Ford Expedition</option>
+    <option value="Ford Lobo">Ford Lobo</option>
+    <option value="Ford Ranger">Ford Ranger</option>
+    <option value="Ford F-150">F-150</option>
+    <option value="Ford Transit">Ford Transit</option>
+    <option value="Ford Edge ST">Ford Edge ST</option>
+    <option value="Ford Fiesta ST">Ford Fiesta ST</option>
+    
+  </optgroup>    
+  <optgroup label="Honda">
+    <option value="Honda Civic Sedán">Honda Civic Sedán</option>
+    <option value="Honda Insight">Honda Insight</option> 
+    <option value="Honda Accord">Honda Accord</option>
+    <option value="Honda Clarity Plug-in Hybrid">Honda Clarity Plug-in Hybrid </option>
+    <option value="Honda Clarity Electric">Honda Clarity Electric</option>
+    <option value="Honda Clarity Fuel Cell">Honda Clarity Fuel Cell</option>
+    <option value="Honda Civic Coupe">Honda Civic Coupe</option>
+    <option value="Honda Civic Si Coupe">Honda Civic Si Coupe</option>
+    <option value="Honda Fit">Honda Fit</option>
+    <option value="Honda Civic Hatchback">Honda Civic Hatchback</option>
+    <option value="Honda Civic Type R">Honda Civic Type R</option>
+    <option value="Honda HR-V">Honda HR-V</option>
+    <option value="Honda CR-V">Honda CR-V</option>
+    <option value="Honda Passport">Honda Passport</option>  
+    <option value="Honda Pilot">Honda Pilot</option>  
+    <option value="Honda Odyssey">Honda Odyssey</option>  
+    <option value="Honda Ridgeline">Honda Ridgeline</option>  
+    <option value="Honda Insight">Honda Insight</option>  
+    <option value="Honda Accord Hybrid">Honda Accord Hybrid</option>      
+  </optgroup>
+  <optgroup label="Hyundai">
+    <option value="Hyundai Elantra">Hyundai Elantra</option>
+    <option value="Hyundai H-1 Travel">Hyundai H-1 Travel</option>
+    <option value="Hyundai Ioniq">Hyundai Ioniq</option>    
+    <option value="Hyundai I10">I10</option>
+    <option value="Hyundai I20">I20</option>
+    <option value="Hyundai I20 Active">Hyundai I20 Active</option>
+    <option value="Hyundai I30">Hyundai I30</option>
+    <option value="Hyundai I40">Hyundai I40</option>
+    <option value="Hyundai IX20">Hyundai IX20</option>
+    <option value="Hyundai Santa Fe">Hyundai Santa Fe</option>
+    <option value="Hyundai Tucson">Hyundai Tucson</option>
+  </optgroup> 
+<optgroup label="Jeep">
+    <option value="Jeep Cherokee">Jeep Cherokee</option>
+    <option value="Jeep Compass">Jeep Compass</option>
+    <option value="Jeep Grand Cherokee">Jeep Grand Cherokee</option>
+    <option value="Jeep Renegade">Jeep Renegade</option>
+    <option value="Jeep Wrangler">Jeep Wrangler</option>
+    <option value="Jeep Wrangler Unlimited">Jeep Wrangler Unlimited</option>    
+  </optgroup>  
+
+  <optgroup label="KIA">
+    <option value="KIA Carens">KIA Carens</option>
+    <option value="KIA Ceed">KIA Ceed</option>
+    <option value="KIA Niro">KIA Niro</option>
+    <option value="KIA Niro Hibrido">KIA Niro Hibrido</option>
+    <option value="KIA Optima">KIA Optima</option>
+    <option value="KIA Picanto">KIA Picanto</option>
+    <option value="KIA Rio">KIA Rio</option>
+    <option value="KIA Sorento">KIA Sorento</option>
+    <option value="KIA Soul">KIA Soul</option>
+    <option value="KIA Soul EV">KIA Soul EV</option>
+    <option value="KIA Sportage">KIA Sportage</option>
+    <option value="KIA Stinger">KIA Stinger</option>
+    <option value="KIA Stonic">KIA Stonic</option>
+    
+  </optgroup>  
+<optgroup label="Mazda">
+    <option value=" Mazda CX-3">Mazda CX-3</option>
+    <option value=" Mazda CX-5">Mazda CX-5</option> 
+    <option value=" Mazda MX-5">Mazda MX-5</option>
+    <option value=" Mazda 2">Mazda 2</option> 
+    <option value=" Mazda 3">Mazda 3</option>
+    <option value=" Mazda 6">Mazda 6</option> 
+ 
+  </optgroup>
+  <optgroup label="Mitsubishi">
+    <option value="Mitsubishi ASK">Mitsubishi ASK</option>
+    <option value="Mitsubishi Eclipse Cross">Mitsubishi Eclipse Cross</option> 
+    <option value="Mitsubishi Montero">Mitsubishi Montero</option>
+    <option value="Mitsubishi Outlander">Mitsubishi Outlander</option> 
+    <option value="Mitsubishi Space Star">Mitsubishi Space Star</option>
+  </optgroup>
+  <optgroup label="Nissan">
+    <option value=" Nissan 370Z ">Nissan 370Z </option>
+    <option value=" Nissan GT-R ">Nissan GT-R </option> 
+     <option value=" Nissan Juke">Nissan Juke </option>
+    <option value=" Nissan Leaf ">Nissan Leaf </option> 
+     <option value=" Nissan Micra ">Nissan Micra </option>
+    <option value=" Nissan NV 200 ">Nissan NV 200 </option> 
+     <option value=" Nissan Pulsar ">Nissan Pulsar </option>
+    <option value=" Nissan QASHQAI ">Nissan QASHQAI</option> 
+     <option value=" Nissan X-TRAIL ">Nissan X-TRAIL </option>
+    <option value=" Nissan E-NV200 ">Nissan E-NV200 </option> 
+  </optgroup>
+  <optgroup label="Peugeot">
+    <option value="Peugeot 108">Peugeot 108</option>
+    <option value="Peugeot iON">Peugeot iON</option> 
+    <option value="Peugeot 208">Peugeot 208</option>
+    <option value="Peugeot 308">Peugeot 308</option> 
+    <option value="Peugeot 508">Peugeot 508</option>
+    <option value="Peugeot 2008">Peugeot 2008</option> 
+    <option value="Peugeot 3008">Peugeot 3008</option>
+    <option value="Peugeot 5008">Peugeot 5008</option> 
+    <option value="Peugeot Rifter">Peugeot Rifter</option>
+    <option value="Peugeot Traveller">Peugeot Traveller</option> 
+    <option value="Peugeot 1007">Peugeot 1007</option>
+    <option value="Peugeot 107">Peugeot 107</option>
+    <option value="Peugeot 207">Peugeot 207</option> 
+    <option value="Peugeot RCZ">Peugeot RCZ</option>
+    <option value="Peugeot Partner">Peugeot Partner</option> 
+    <option value="Peugeot Expert">Peugeot Expert</option>
+    <option value="Peugeot Bipper">Peugeot Bipper</option> 
+    <option value="Peugeot Coupe">Peugeot Coupe</option> 
+  </optgroup>
+    <optgroup label="RAM">
+    <option value="RAM 2500 HD LIMITED">RAM 2500 HD LIMITED</option>
+    <option value="RAM 1500 LIMITED">RAM 1500 LIMITED</option> 
+    <option value="RAM 1500 LONGHORN">RAM 1500 LONGHORN</option>
+    <option value="RAM LARAMIE">RAM LARAMIE</option> 
+    <option value="RAM R/T">RAM R/T</option>
+    <option value="RAM HEMI SPORT">RAM HEMI SPORT</option> 
+    <option value="RAM 700 CLUB CAB ADVENTURE">RAM 700 CLUB CAB ADVENTURE</option>
+    <option value="RAM 2500 HD SLT">RAM 2500 HD SLT</option> 
+    <option value="RAM SLT">RAM SLT</option>
+    <option value="RAM 700 SLT">RAM 700 SLT</option> 
+    <option value="RAM 4000">RAM 4000</option>
+    <option value="RAM PROMASTER RAPID">RAM PROMASTER RAPID</option> 
+
+  </optgroup>
+    <optgroup label="Renault">
+    <option value="Renault ZOE">Renault ZOE</option>
+    <option value="Renault Twingo">Renault Twingo</option> 
+     <option value="Renault Clio">Renault Clio</option>
+    <option value="Renault Megane">Renault Megane</option> 
+     <option value="Renault Talisman">Renault Talisman</option>
+    <option value="Renault Scenic">Renault Scenic</option> 
+     <option value="Renault Grand Scenic">Renault Grand Scenic</option>
+    <option value="Renault Espace">Renault Espace</option> 
+    <option value="Renault Captur">Renault Captur</option> 
+    <option value="Renault Alaska">Renault Alaska</option> 
+    <option value="Renault Twinzy">Renault Twinzy</option> 
+    <option value="Renault Fluence">Renault Fluence</option> 
+    <option value="Renault Laguna">Renault Laguna</option> 
+    <option value="Renault Kadjar">Renault Kadjar</option> 
+    <option value="Renault Koleos">Renault Koleos</option> 
+    <option value="Renault Scala">Renault Scala</option> 
+  </optgroup>
+   <optgroup label="SEAT">
+    <option value="SEAT Ibiza">SEAT Ibiza</option>
+    <option value="SEAT Toledo">SEAT Toledo</option> 
+    <option value="SEAT Leon">SEAT Leon</option> 
+    <option value="SEAT Leon ST">SEAT Leon ST</option> 
+    <option value="SEAT Arona">SEAT Arona</option> 
+    <option value="SEAT Ateca">SEAT Ateca</option> 
+    <option value="SEAT Tarraco">SEAT Tarraco</option> 
+  </optgroup>
+  <optgroup label="Suzuki">
+    <option value="Suzuki Ertiga">Suzuki Ertiga</option>
+    <option value="Suzuki Vitara">Suzuki Vitara</option>
+    <option value="Suzuki S-Cross">Suzuki S-Cross</option>
+    <option value="Suzuki Swift">Suzuki Swift</option>
+     <option value="Suzuki Swift Boosterjet Sport">Suzuki Swift Bossterjet Sport</option>
+    <option value="Suzuki Ignis">Suzuki Ignis</option>
+     <option value="Suzuki Ciaz">Suzuki Ciaz</option>
+
+  </optgroup>
+   <optgroup label="Toyota">
+    <option value="Toyota Aygo">Toyota Aygo</option>
+    <option value="Toyota Corolla">Toyota Corolla</option>
+    <option value="Toyota Yaris">Toyota Yaris</option>
+    <option value="Toyota Prius">Toyota Prius</option>
+    <option value="Toyota Prius+">Toyota Prius+</option>
+    <option value="Toyota Camry">Toyota Camry</option>
+    <option value="Toyota C-HR">Toyota C-HR</option>
+
+    <option value="Toyota RAV4">Toyota RAV4</option>
+    <option value="Toyota Hilux">Toyota Hilux</option>
+    <option value="Toyota GT86">Toyota GT86 </option>
+    <option value="Toyota Land Cruiser">Toyota Land Cruiser</option>
+    <option value="Toyota Supra">Toyota Supra</option>
+    <option value="Toyota Proace">Toyota Proace</option>
+    <option value="Toyota Aygo">Toyota Aygo</option>
+    <option value="Toyota Prius">Toyota Prius</option>
+    <option value="Toyota Auris">Toyota Auris</option>
+    <option value="Toyota Yaris">Toyota Yaris</option>
+    <option value="Toyota Avensis">Toyota Avensis</option>
+    <option value="Toyota RAV4">Toyota RAV4</option>
+    <option value="Toyota Verso">Toyota Verso</option>
+    <option value="Toyota GT86">Toyota GT86</option>
+    <option value="Toyota Prius+">Toyota Prius+</option>
+    <option value="Toyota Land Cruiser 200">Toyota Land Cruiser 200</option>
+    <option value="Toyota Hilux">Toyota Hilux</option>
+    <option value="Toyota Land Cruiser">Toyota Land Cruiser</option>
+    <option value="Toyota Corolla">Toyota Corolla</option>
+    <option value="Toyota Corolla Verso">Toyota Corolla Verso</option>
+    <option value="Toyota Land Cruiser 100">Toyota Land Cruiser 100</option>
+    <option value="Toyota Previa">Toyota Previa</option> 
+    <option value="Toyota Urban Cruiser">Toyota Urban Cruiser</option> 
+    <option value="Toyota Yaris Verso">Toyota Yaris Verso</option> 
+    <option value="Toyota Hiace">Toyota Hiace</option> 
+  </optgroup>
+  <optgroup label="Volkswagen">
+  <option value="Volkswagen Polo">Volkswagen Polo</option>
+  <option value="Volkswagen Golf">Volkswagen Golf</option> 
+  <option value="Volkswagen Golf GTI">Volkswagen Golf GTI</option>
+  <option value="Volkswagen T-Cross">Volkswagen T-Cross</option> 
+  <option value="Volkswagen Tiguan">Volkswagen Tiguan</option>
+  <option value="Volkswagen Tiguan Allspace">Volkswagen Allspace</option> 
+  <option value="Volkswagen T-Roc">Volkswagen T-Roc</option>
+  <option value="Volkswagen Passat Alltrack">Volkswagen Passat Alltrack</option> 
+  <option value="Volkswagen Touareg">Volkswagen Touareg</option>
+  <option value="Volkswagen Passat GTE ">Volkswagen Passat GTE</option> 
+  <option value="Volkswagen Golf GTE">Volkswagen Golf GTE</option>
+  <option value="Volkswagen e-Golf">Volkswagen e-Golf</option> 
+  <option value="Volkswagen Golf Sportsvan">Volkswagen Golf Sportsvan</option>
+  <option value="Volkswagen Golf Variant">Volkswagen Golf Variant</option> 
+  <option value="Volkswagen Passat Variant">Volkswagen Passat Variant</option>
+  <option value="Volkswagen Touran">Volkswagen Touran</option> 
+  <option value="Volkswagen Sharan">Volkswagen Sharan</option>
+  <option value="Volkswagen Passat">Volkswagen Passat</option> 
+  <option value="Volkswagen Arteon">Volkswagen Arteon</option> 
+  <option value="Volkswagen Caddy">Volkswagen Caddy</option> 
+  <option value="Volkswagen Multivan">Volkswagen Multivan</option> 
+  <option value="Volkswagen Caravella">Volkswagen Caravella</option> 
+  <option value="Volkswagen California">Volkswagen California</option> 
+  <option value="Volkswagen Amarok">Volkswagen Amorok</option> 
+  </optgroup>
+</select>
+</div>
+<br>
      <div class="row">
      <input type="text" name="Subject" placeholder="Numero de Placas " id="_placa" ></input>
      </div>
@@ -122,6 +448,7 @@
 <option value="Licencia de Conducir">Licencia de Conducir
 <option value="Placa">Placa
 <option value="Automovil">Automovil
+<option value="Tarjeta de Circulacion">Tarjeta de Circulacion
 </select>
 </div>
 <br>

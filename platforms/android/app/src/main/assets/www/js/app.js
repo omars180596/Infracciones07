@@ -155,6 +155,7 @@ var app = {
 
             app7.preloader.hide();
             app7.dialog.alert("Hubo un error por favor intenta nuevamente");
+            mainView.router.navigate('/home/',{animate:true});
             console.log(data);
            }
            

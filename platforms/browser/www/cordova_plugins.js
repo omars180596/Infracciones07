@@ -446,7 +446,8 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.6",
     "cordova-plugin-printer": "0.7.3",
     "es6-promise-plugin": "4.2.2",
-    "cordova-plugin-x-socialsharing": "5.4.4"
+    "cordova-plugin-x-socialsharing": "5.4.4",
+    "cordova-plugin-whitelist": "1.3.4"
 }
 // BOTTOM OF METADATA
 });
