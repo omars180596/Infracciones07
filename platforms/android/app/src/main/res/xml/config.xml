@@ -45,6 +45,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="PDFService">
+        <param name="android-package" value="com.pdf.generator.PDFGenerator" />
+    </feature>
     <name>Apizaco</name>
     <description>
         Hello World sample application that responds to the deviceready event.

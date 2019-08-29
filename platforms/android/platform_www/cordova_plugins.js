@@ -392,6 +392,16 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-pdf-generator.pdf",
+    "file": "plugins/cordova-pdf-generator/www/pdf.js",
+    "pluginId": "cordova-pdf-generator",
+    "clobbers": [
+      "cordova.plugins.pdf",
+      "pugin.pdf",
+      "pdf"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -411,7 +421,8 @@ module.exports.metadata =
   "cordova-plugin-printer": "0.7.3",
   "es6-promise-plugin": "4.2.2",
   "cordova-plugin-x-socialsharing": "5.4.4",
-  "cordova-plugin-whitelist": "1.3.4"
+  "cordova-plugin-whitelist": "1.3.4",
+  "cordova-pdf-generator": "2.0.8"
 };
 // BOTTOM OF METADATA
 });

@@ -22,12 +22,14 @@
       "cordova-plugin-x-socialsharing": {
         "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
       },
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-pdf-generator": {}
     }
   },
   "dependencies": {
     "cordova": "9.0.0",
     "cordova-android": "~7.0.0",
+    "cordova-pdf-generator": "^2.0.8",
     "cordova-plugin-battery-status": "~1.2.4",
     "cordova-plugin-camera": "~2.4.1",
     "cordova-plugin-device": "~1.1.6",

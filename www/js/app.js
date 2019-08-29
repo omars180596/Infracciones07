@@ -381,10 +381,30 @@ function showMenu(){
 
 
 $$(document).on('page:init', '.page[data-name="home"]', function (e) {
+
       console.log('View Home load Init!');
       app7.panel.allowOpen = true;
       app7.panel.enableSwipe('left');
+
+  
+      printPDF();
+
 });
+
+
+
+function printPDF(){
+
+let options = {
+                documentSize: 'A4',
+                type: 'base64'
+              }
+ 
+pdf.fromData('<html><h1>Hello World</h1></html>', options)
+    .then((base64)=>'ok')   // it will
+    .catch((err)=>console.log(err));
+
+}
 
 
 $$(document).on('page:init', '.page[data-name="preview"]', function (e) {
@@ -513,17 +533,26 @@ function PrintDocument(){
 
   
     _fecha = document.getElementById('_fecha').value;
+
     _folio = document.getElementById('_folio').value;
+    
     _causa = document.getElementById('_causa').value;
+    
     _causa2 = document.getElementById('_causa2').value;
+    
     _lugar = document.getElementById('_lugar').value;  
+    
     _caracteristicas = document.getElementById('_caracteristicas').value;
+    
     _placa = document.getElementById('_placa').value;
+    
     _persona = document.getElementById('_persona').value;
+    
     _garantia = document.getElementById('_garantia').value;
 
     var page = '<strong>Fecha:</strong> '+_fecha+'<strong>Folio:</strong> '+_folio+' <br><strong>Placa:</strong> '+_placa+' <br><strong>Datos del Vehiculo:</strong> '+_caracteristicas+'<br><strong>Direccion:</strong> '+_lugar+_causa+_persona;
     cordova.plugins.printer.print(page, 'Document.html');
+
 
 }
 
@@ -632,5 +661,20 @@ function ConvertImage() {
     .catch(function(error) {
       console.error('oops, something went wrong!', error);
     });
+
+}
+
+
+
+function ConvertPDF(){
+
+  let options = {
+                documentSize: 'A4',
+                type: 'base64'
+              }
+ 
+pdf.fromData('<html><h1>Hello World</h1></html>', options)
+    .then((base64)=>'ok')   // it will
+    .catch((err)=>console.err(err))
 
 }

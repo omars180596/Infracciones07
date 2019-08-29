@@ -128,5 +128,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-pdf-generator": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-pdf-generator@^2.0.8"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

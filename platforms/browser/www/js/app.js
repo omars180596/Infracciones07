@@ -384,7 +384,24 @@ $$(document).on('page:init', '.page[data-name="home"]', function (e) {
       console.log('View Home load Init!');
       app7.panel.allowOpen = true;
       app7.panel.enableSwipe('left');
+
+      printPDF();
 });
+
+
+
+function printPDF(){
+
+let options = {
+                documentSize: 'A4',
+                type: 'base64'
+              }
+ 
+pdf.fromData('<html><h1>Hello World</h1></html>', options)
+    .then((base64)=>'ok')   // it will
+    .catch((err)=>console.log(err));
+
+}
 
 
 $$(document).on('page:init', '.page[data-name="preview"]', function (e) {
