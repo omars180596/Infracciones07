@@ -697,8 +697,19 @@ var content = '<html><h1>Infracción</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
      content +='<p>Lugar de la Infraccion: '+_lugar+'</p>';
   content +='<p>Causa: '+_causa+'</p>';
+  content +='<p>Costo: '+_costo+'</p>';
+  content +='<p> '+_causa2+'</p>';
+  content +='<p>'+_costo2+'</p>';
+  
 
 
+  var arrCausa = this._causa.split("|");
+   var _costo = arrCausa[1];
+
+   //alert(_costo);
+
+   var arrCausa2 = this._causa2.split("|");
+   var _costo2 = this._causa2[1];
 
 
     content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
