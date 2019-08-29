@@ -696,16 +696,10 @@ function ConvertPDF(){
 var content = '<html><h1>Infracción</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
     content +='<p>Folio: '+_folio+'</p>';
-    content +='<p>Nombre del Oficial: '+_agente+'</p>';
-    content +='<p>Falta Cometida: '+_causa+'</p>';
-     content +='<p>Costo: '+_costo+'</p>';
-    content +='<p> '+_causa2+'</p>';
-    content +='<p> '+_costo2+'</p>';
-    content +='<p>Caracteristicas de la unidad: '+_caracteristicas+'</p>';
-    content +='<p>Numero de placas: '+_placa+'</p>';
-     content +='<p>Nombre del Conductor: '+_persona+'</p>';
-    content +='<p> Garantia:'+_garantia+'</p>';
-    
+     content +='<p>Lugar de la Infraccion: '+_lugar+'</p>';
+
+
+
 
     content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
     content +='</html>';
