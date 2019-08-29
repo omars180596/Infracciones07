@@ -625,7 +625,7 @@ function Preview(){
 
       
 
- mainView.router.navigate('/preview/',{animate:true});
+ //mainView.router.navigate('/preview/',{animate:true});
 
  //ConvertImage();
 
