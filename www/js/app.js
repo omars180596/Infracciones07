@@ -668,13 +668,15 @@ function ConvertImage() {
 
 function ConvertPDF(){
 
+alert("PDF");
   let options = {
                 documentSize: 'A4',
-                type: 'base64'
+                type: 'share',
+                fileName: 'myFile.pdf'
               }
  
-pdf.fromData('<html><h1>Hello World</h1></html>', options)
-    .then((base64)=>'ok')   // it will
+pdf.fromData( '<html><h1>Hello World</h1></html>', options)
+    .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
     .catch((err)=>console.err(err))
 
 }
