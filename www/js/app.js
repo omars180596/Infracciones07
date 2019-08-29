@@ -697,9 +697,7 @@ var content = '<html><h1>Infracción</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
      content +='<p>Lugar de la Infraccion: '+_lugar+'</p>';
   content +='<p>Causa: '+_causa+'</p>';
-    content +='<p>Costo:'+_costo+'</p>';
-    content +='<p>'+_causa2+'</p>';
-    content +='<p>'+_costo2+'</p>';
+
 
 
 
