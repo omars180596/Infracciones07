@@ -696,7 +696,7 @@ function ConvertPDF(){
 var content = '<html><h1>Infracción</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
     content +='<p>Folio: '+_folio+'</p>';
-    content +='<p><img src="'+_img+'" /></p>';
+    content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
     content +='</html>';
 
 pdf.fromData( content, options)
