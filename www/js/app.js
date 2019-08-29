@@ -691,7 +691,22 @@ function ConvertPDF(){
                 fileName: 'myFile.pdf'
               }
  
+var arrCausa = this._causa.split("|");
+   var _costo = arrCausa[1];
 
+   //alert(_costo);
+
+   var arrCausa2 = this._causa2.split("|");
+   var _costo2 = this._causa2[1];
+//
+ var arrCausa1 = _causa.split("|");
+     // $$('#_causa').html(arrCausa1[0]);
+     _causa = arrCausa1[0];
+
+        
+ var arrCausa10 = _causa2.split("|");
+      //$$('#_causa2').html(arrCausa10[0]);
+      _causa2 = arrCausa10[0];
 
 var content = '<html><h1>Infracción</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
@@ -704,19 +719,7 @@ var content = '<html><h1>Infracción</h1>';
 
 
 
-  var arrCausa = this._causa.split("|");
-   var _costo = arrCausa[1];
-
-   //alert(_costo);
-
-   var arrCausa2 = this._causa2.split("|");
-   var _costo2 = this._causa2[1];
-//
- var arrCausa1 = _causa.split("|");
-      $$('#_causa').html(arrCausa1[0]);
-        
- var arrCausa10 = _causa2.split("|");
-      $$('#_causa2').html(arrCausa10[0]);
+  
 
     content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
     content +='</html>';
