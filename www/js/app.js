@@ -629,6 +629,8 @@ function Preview(){
 
  //ConvertImage();
 
+ ConvertPDF();
+
 }
 
 
@@ -668,14 +670,35 @@ function ConvertImage() {
 
 function ConvertPDF(){
 
-alert("PDF");
+/*
+   _fecha = $$('#_fecha').val();
+     _folio = $$('#_folio').val();
+ 
+    
+    _causa = document.getElementById('_causa').value;
+    _causa2 = document.getElementById('_causa2').value; 
+    _lugar = document.getElementById('_lugar').value;  
+    _caracteristicas = document.getElementById('_caracteristicas').value;
+    _placa = document.getElementById('_placa').value;
+    _persona = document.getElementById('_persona').value;
+    _garantia = document.getElementById('_garantia').value;*/
+
+
+
   let options = {
                 documentSize: 'A4',
                 type: 'share',
                 fileName: 'myFile.pdf'
               }
  
-pdf.fromData( '<html><h1>Hello World</h1></html>', options)
+
+
+var content = '<html><h1>Infracción</h1>';
+    content +='<p>Fecha: '+_fecha+'</p>';
+    content +='<p>Folio: '+_folio+'</p>';
+    content +='</html>';
+
+pdf.fromData( content, options)
     .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
     .catch((err)=>console.err(err))
 
