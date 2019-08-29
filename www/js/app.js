@@ -287,8 +287,8 @@ Placa3:function(){
    //alert(_costo);
 
    var arrCausa2 = this._causa2.split("|");
-   var _costo2 = this._causa2[1];
-
+  // var _costo2 = this._causa2[1];
+      var _costo2 = arrCausa2[1];
     // alert(this._fecha);
          //alert(this._folio);
 
@@ -697,7 +697,7 @@ var arrCausa = this._causa.split("|");
    //alert(_costo);
 
    var arrCausa2 = this._causa2.split("|");
-   var _costo2 = this._causa2[1];
+   var _costo2 = arrCausa2[1];
 //
  var arrCausa1 = _causa.split("|");
      // $$('#_causa').html(arrCausa1[0]);
