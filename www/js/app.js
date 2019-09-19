@@ -670,6 +670,8 @@ function ConvertImage() {
 
 function ConvertPDF(){
 
+
+
 /*
    _fecha = $$('#_fecha').val();
      _folio = $$('#_folio').val();
@@ -707,6 +709,8 @@ var arrCausa = this._causa.split("|");
  var arrCausa10 = _causa2.split("|");
       //$$('#_causa2').html(arrCausa10[0]);
       _causa2 = arrCausa10[0];
+    
+    /*
 
 var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
     content +='<p>Fecha: '+_fecha+'</p>';
@@ -715,14 +719,105 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
   content +='<p>Costo: '+_costo+'</p>';
   content +='<p> '+_causa2+'</p>';
   content +='<p>'+_costo2+'</p>';
+    content +='<p><img src="'+_img+'" width="300" height="100" /></p>';
+    content +='</html>';*/
   
-
-
-
   
+  
+  var content = '<html>';
 
-    content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
-    content +='</html>';
+var content += '<head>';
+var content += '<title>Ticket Infraccion</title>';
+var content += '</head>';
+var content += '<body>';
+
+var content += '<table width="100%">';
+var content += '<tr>';
+var content += '<td width="60%"><span style="font-size:55px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
+var content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png" /></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="60%"><span style="font-size:35px; font-weight:bold;">FECHA</span> <span style="font-size:35px;">13/03/2019</span></td>';
+var content += '<td><span style="font-size:35px; font-weight:bold;">FOLIO:</span> <span style="font-size:35px;">2424455</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DEL OFICIAL:</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">LUGAR DE LA INFRACCIÓN :</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">Calle: Herdex #13 Col. Santa</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">FALTA COMETIDA:</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">INVACION PASO PEATONAL ART 167</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">COSTOP:</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">4 UMAS</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">CARACTERISTICAS DE LA UNIDAD:</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">AUDI COLOR ROJO</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NUMERO DE PLACAS:</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">MEX2365</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DE CONDUCTOR:</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">RICARDO SANCHEZ</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">GARANTIA:</span></td>';
+var content += '</tr>';
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">LICENCIA 27364836396982</span></td>';
+var content += '</tr>';
+
+
+var content += '<tr>';
+var content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="100" /></td>';
+var content += '</tr>';
+
+var content += '</table>';
+
+var content += '</body></html>';
 
 pdf.fromData( content, options)
     .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
