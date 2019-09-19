@@ -730,7 +730,7 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
  content += '<table width="100%">';
  content += '<tr>';
  content += '<td width="60%"><span style="font-size:12px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
- content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png"  width="90" height="90" /></td>';
+ content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png"  width="90" height="70" /></td>';
  content += '</tr>';
 
  content += '<tr>';
@@ -808,7 +808,7 @@ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weigh
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="200" /></td>';
+ content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="100" /></td>';
  content += '</tr>';
 
  content += '</table>';
