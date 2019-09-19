@@ -719,7 +719,6 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
   content +='<p>'+_costo2+'</p>';
    content +='<p>Caracteristicas de la unidad: '+_caracteristicas+'</p>';
     content +='<p>Numero de placas: '+_placas+'</p>';
-     content +='<p>Nombre del Conductor: '+_persona+'</p>';
       content +='<p>Garantia: '+_garantia+'</p>';
   
 
