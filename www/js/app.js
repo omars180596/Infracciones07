@@ -729,81 +729,81 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
 
  content += '<table width="100%">';
  content += '<tr>';
- content += '<td width="60%"><span style="font-size:55px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
+ content += '<td width="60%"><span style="font-size:12px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
  content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png" /></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="60%"><span style="font-size:35px; font-weight:bold;">FECHA</span> <span style="font-size:35px;">13/03/2019</span></td>';
- content += '<td><span style="font-size:35px; font-weight:bold;">FOLIO:</span> <span style="font-size:35px;">2424455</span></td>';
+ content += '<td width="60%"><span style="font-size:10px; font-weight:bold;">FECHA</span> <span style="font-size:10px;">13/03/2019</span></td>';
+ content += '<td><span style="font-size:10px; font-weight:bold;">FOLIO:</span> <span style="font-size:10px;">2424455</span></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DEL OFICIAL:</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">NOMBRE DEL OFICIAL:</span></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">LUGAR DE LA INFRACCIÓN  :</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">LUGAR DE LA INFRACCIÓN  :</span></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">Calle: Herdex #13 Col. Santa</span></td>';
- content += '</tr>';
-
-
- content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">FALTA COMETIDA:</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">Calle: Herdex #13 Col. Santa</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">INVACION PASO PEATONAL ART 167</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">FALTA COMETIDA:</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">COSTOP:</span></td>';
- content += '</tr>';
-
- content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">4 UMAS</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">INVACION PASO PEATONAL ART 167</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">CARACTERISTICAS DE LA UNIDAD:</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">COSTOP:</span></td>';
+ content += '</tr>';
+
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">4 UMAS</span></td>';
+ content += '</tr>';
+
+
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">CARACTERISTICAS DE LA UNIDAD:</span></td>';
  content += '</tr>';
  
  content += '<tr>';
-content += '<td width="100%" colspan="2"><span style="font-size:35px; ">AUDI COLOR ROJO</span></td>';
+content += '<td width="100%" colspan="2"><span style="font-size:10px; ">AUDI COLOR ROJO</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NUMERO DE PLACAS:</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">NUMERO DE PLACAS:</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">MEX2365</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">MEX2365</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DE CONDUCTOR:</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">NOMBRE DE CONDUCTOR:</span></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">RICARDO SANCHEZ</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">RICARDO SANCHEZ</span></td>';
  content += '</tr>';
 
 
  content += '<tr>';
-content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">GARANTIA:</span></td>';
+content += '<td width="100%" colspan="2"><span style="font-size:10px; font-weight:bold;">GARANTIA:</span></td>';
  content += '</tr>';
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><span style="font-size:35px; ">LICENCIA 27364836396982</span></td>';
+ content += '<td width="100%" colspan="2"><span style="font-size:10px; ">LICENCIA 27364836396982</span></td>';
  content += '</tr>';
 
 
