@@ -735,7 +735,7 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
 
  content += '<tr>';
  content += '<td width="60%"><span style="font-size:8px; font-weight:bold;">FECHA</span> <span style="font-size:8px;">'+_fecha+'</span></td>';
- content += '<td><span style="font-size:10px; font-weight:bold;">FOLIO:</span> <span style="font-size:10px;">2424455</span></td>';
+ content += '<td><span style="font-size:10px; font-weight:bold;">FOLIO:</span> <span style="font-size:10px;">'+_folio+'</span></td>';
  content += '</tr>';
 
  content += '<tr>';
@@ -808,7 +808,7 @@ content += '<td width="100%" colspan="2"><span style="font-size:8px; font-weight
 
 
  content += '<tr>';
- content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="120" /></td>';
+ content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="160" /></td>';
  content += '</tr>';
 
  content += '</table>';
