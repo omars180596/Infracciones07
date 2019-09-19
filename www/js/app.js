@@ -727,93 +727,93 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
   var content = '<html>';
 
 
-var content += '<table width="100%">';
-var content += '<tr>';
-var content += '<td width="60%"><span style="font-size:55px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
-var content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png" /></td>';
-var content += '</tr>';
+ content += '<table width="100%">';
+ content += '<tr>';
+ content += '<td width="60%"><span style="font-size:55px; font-weight:bold;">SEGURIDAD PUBLICA APIZACO</span></td>';
+ content += '<td><img src="http://www.apiza.co/portal/images/logo-apizaco.png" /></td>';
+ content += '</tr>';
 
-var content += '<tr>';
-var content += '<td width="60%"><span style="font-size:35px; font-weight:bold;">FECHA</span> <span style="font-size:35px;">13/03/2019</span></td>';
-var content += '<td><span style="font-size:35px; font-weight:bold;">FOLIO:</span> <span style="font-size:35px;">2424455</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="60%"><span style="font-size:35px; font-weight:bold;">FECHA</span> <span style="font-size:35px;">13/03/2019</span></td>';
+ content += '<td><span style="font-size:35px; font-weight:bold;">FOLIO:</span> <span style="font-size:35px;">2424455</span></td>';
+ content += '</tr>';
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DEL OFICIAL:</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DEL OFICIAL:</span></td>';
+ content += '</tr>';
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">LUGAR DE LA INFRACCIÓN :</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">LUGAR DE LA INFRACCIÓN  :</span></td>';
+ content += '</tr>';
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">Calle: Herdex #13 Col. Santa</span></td>';
-var content += '</tr>';
-
-
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">FALTA COMETIDA:</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">Calle: Herdex #13 Col. Santa</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">INVACION PASO PEATONAL ART 167</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">FALTA COMETIDA:</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">COSTOP:</span></td>';
-var content += '</tr>';
-
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">4 UMAS</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">INVACION PASO PEATONAL ART 167</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">CARACTERISTICAS DE LA UNIDAD:</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">COSTOP:</span></td>';
+ content += '</tr>';
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">AUDI COLOR ROJO</span></td>';
-var content += '</tr>';
-
-
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NUMERO DE PLACAS:</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">4 UMAS</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">MEX2365</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">CARACTERISTICAS DE LA UNIDAD:</span></td>';
+ content += '</tr>';
+ 
+ content += '<tr>';
+content += '<td width="100%" colspan="2"><span style="font-size:35px; ">AUDI COLOR ROJO</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DE CONDUCTOR:</span></td>';
-var content += '</tr>';
-
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">RICARDO SANCHEZ</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NUMERO DE PLACAS:</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">GARANTIA:</span></td>';
-var content += '</tr>';
-
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><span style="font-size:35px; ">LICENCIA 27364836396982</span></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">MEX2365</span></td>';
+ content += '</tr>';
 
 
-var content += '<tr>';
-var content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="100" /></td>';
-var content += '</tr>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">NOMBRE DE CONDUCTOR:</span></td>';
+ content += '</tr>';
 
-var content += '</table>';
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">RICARDO SANCHEZ</span></td>';
+ content += '</tr>';
 
-var content += '</html>';
+
+ content += '<tr>';
+content += '<td width="100%" colspan="2"><span style="font-size:35px; font-weight:bold;">GARANTIA:</span></td>';
+ content += '</tr>';
+
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><span style="font-size:35px; ">LICENCIA 27364836396982</span></td>';
+ content += '</tr>';
+
+
+ content += '<tr>';
+ content += '<td width="100%" colspan="2"><img src="'+_img+'" width="300" height="100" /></td>';
+ content += '</tr>';
+
+ content += '</table>';
+
+ content += '</html>';
 
 pdf.fromData( content, options)
     .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
