@@ -708,20 +708,26 @@ var arrCausa = this._causa.split("|");
       //$$('#_causa2').html(arrCausa10[0]);
       _causa2 = arrCausa10[0];
 
-var content = '<html><h1>Infracción</h1>';
+var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
+    
+
     content +='<p>Fecha: '+_fecha+'</p>';
      content +='<p>Lugar de la Infraccion: '+_lugar+'</p>';
+     content +='<p>Oficial: '+_agente+'</p>';
   content +='<p>Causa: '+_causa+'</p>';
   content +='<p>Costo: '+_costo+'</p>';
   content +='<p> '+_causa2+'</p>';
   content +='<p>'+_costo2+'</p>';
-  
+  content +='<p>Lugar'+_lugar+'</p>';
+  content +='<p>Caracteristicas de la Unidad: '+_caracteristicas+'</p>';
+  content +='<p>Numero de Placas: '+_placa+'</p>';
+  content +='<p>Garantia: '+_garantia+'</p>';
 
 
 
   
 
-    content +='<p><img src="'+_img+'" width="100" height="300" /></p>';
+    content +='<p><img src="'+_img+'" width="50" height="200" /></p>';
     content +='</html>';
 
 pdf.fromData( content, options)

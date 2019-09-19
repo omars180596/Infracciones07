@@ -287,8 +287,8 @@ Placa3:function(){
    //alert(_costo);
 
    var arrCausa2 = this._causa2.split("|");
-   var _costo2 = this._causa2[1];
-
+  // var _costo2 = this._causa2[1];
+      var _costo2 = arrCausa2[1];
     // alert(this._fecha);
          //alert(this._folio);
 
@@ -381,11 +381,14 @@ function showMenu(){
 
 
 $$(document).on('page:init', '.page[data-name="home"]', function (e) {
+
       console.log('View Home load Init!');
       app7.panel.allowOpen = true;
       app7.panel.enableSwipe('left');
 
+  
       printPDF();
+
 });
 
 
@@ -530,17 +533,26 @@ function PrintDocument(){
 
   
     _fecha = document.getElementById('_fecha').value;
+
     _folio = document.getElementById('_folio').value;
+    
     _causa = document.getElementById('_causa').value;
+    
     _causa2 = document.getElementById('_causa2').value;
+    
     _lugar = document.getElementById('_lugar').value;  
+    
     _caracteristicas = document.getElementById('_caracteristicas').value;
+    
     _placa = document.getElementById('_placa').value;
+    
     _persona = document.getElementById('_persona').value;
+    
     _garantia = document.getElementById('_garantia').value;
 
     var page = '<strong>Fecha:</strong> '+_fecha+'<strong>Folio:</strong> '+_folio+' <br><strong>Placa:</strong> '+_placa+' <br><strong>Datos del Vehiculo:</strong> '+_caracteristicas+'<br><strong>Direccion:</strong> '+_lugar+_causa+_persona;
     cordova.plugins.printer.print(page, 'Document.html');
+
 
 }
 
@@ -613,9 +625,11 @@ function Preview(){
 
       
 
- mainView.router.navigate('/preview/',{animate:true});
+ //mainView.router.navigate('/preview/',{animate:true});
 
  //ConvertImage();
+
+ ConvertPDF();
 
 }
 
@@ -649,5 +663,75 @@ function ConvertImage() {
     .catch(function(error) {
       console.error('oops, something went wrong!', error);
     });
+
+}
+
+
+
+function ConvertPDF(){
+
+/*
+   _fecha = $$('#_fecha').val();
+     _folio = $$('#_folio').val();
+ 
+    
+    _causa = document.getElementById('_causa').value;
+    _causa2 = document.getElementById('_causa2').value; 
+    _lugar = document.getElementById('_lugar').value;  
+    _caracteristicas = document.getElementById('_caracteristicas').value;
+    _placa = document.getElementById('_placa').value;
+    _persona = document.getElementById('_persona').value;
+    _garantia = document.getElementById('_garantia').value;*/
+
+
+
+  let options = {
+                documentSize: 'A4',
+                type: 'share',
+                fileName: 'myFile.pdf'
+              }
+ 
+var arrCausa = this._causa.split("|");
+   var _costo = arrCausa[1];
+
+   //alert(_costo);
+
+   var arrCausa2 = this._causa2.split("|");
+   var _costo2 = arrCausa2[1];
+//
+ var arrCausa1 = _causa.split("|");
+     // $$('#_causa').html(arrCausa1[0]);
+     _causa = arrCausa1[0];
+
+        
+ var arrCausa10 = _causa2.split("|");
+      //$$('#_causa2').html(arrCausa10[0]);
+      _causa2 = arrCausa10[0];
+
+var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
+    
+
+    content +='<p>Fecha: '+_fecha+'</p>';
+     content +='<p>Lugar de la Infraccion: '+_lugar+'</p>';
+     content +='<p>Oficial: '+_agente+'</p>';
+  content +='<p>Causa: '+_causa+'</p>';
+  content +='<p>Costo: '+_costo+'</p>';
+  content +='<p> '+_causa2+'</p>';
+  content +='<p>'+_costo2+'</p>';
+  content +='<p>Lugar'+_lugar+'</p>';
+  content +='<p>Caracteristicas de la Unidad: '+_caracteristicas+'</p>';
+  content +='<p>Numero de Placas: '+_placa+'</p>';
+  content +='<p>Garantia: '+_garantia+'</p>';
+
+
+
+  
+
+    content +='<p><img src="'+_img+'" width="50" height="200" /></p>';
+    content +='</html>';
+
+pdf.fromData( content, options)
+    .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
+    .catch((err)=>console.err(err))
 
 }
