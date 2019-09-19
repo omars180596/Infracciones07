@@ -726,10 +726,6 @@ var content = '<html><h1>Seguridad Publica de Apizaco</h1>';
   
   var content = '<html>';
 
-var content += '<head>';
-var content += '<title>Ticket Infraccion</title>';
-var content += '</head>';
-var content += '<body>';
 
 var content += '<table width="100%">';
 var content += '<tr>';
@@ -817,7 +813,7 @@ var content += '</tr>';
 
 var content += '</table>';
 
-var content += '</body></html>';
+var content += '</html>';
 
 pdf.fromData( content, options)
     .then((stats)=> console.log('status', stats) )   // ok..., ok if it was able to handle the file to the OS.  
