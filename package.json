@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "cordova": "9.0.0",
-    "cordova-android": "~7.0.0",
+    "cordova-android": "~11.0.0",
     "cordova-pdf-generator": "^2.0.8",
     "cordova-plugin-battery-status": "~1.2.4",
     "cordova-plugin-camera": "~2.4.1",
